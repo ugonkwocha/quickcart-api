@@ -19,7 +19,7 @@ const server = http.createServer((req, res) => {
   if (path === '/health') {
     res.writeHead(200);
     res.end(JSON.stringify({
-      message: 'QuickCart API is running!',
+      message: 'QuickCart API is running great!', // Added "great!"
       timestamp: new Date().toISOString(),
       status: 'healthy'
     }));
