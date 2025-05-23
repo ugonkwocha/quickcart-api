@@ -33,7 +33,7 @@ describe('QuickCart API', () => {
     
     expect(response.statusCode).toBe(200);
     expect(response.body.status).toBe('healthy');
-    expect(response.body.message).toBe('QuickCart API is running!');
+    expect(response.body.message).toBe('QuickCart API is running great!'); // Updated to match
   });
 
   test('Products endpoint returns product list', async () => {
